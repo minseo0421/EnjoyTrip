@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/main2.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-top">
+          <div class="header_nav_home">
+            <div class="logo-crop">
+              <a href="main2.html">
+                <img
+                  id="logo"
+                  class="logo"
+                  src="Img/logo_static.png"
+                  alt=""
+                  data-animated="Img/logo_animated.gif"
+                  data-static="Img/logo_static.png"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="header_nav_menu">
+            <div class="header_nav_menuitem">
+              <a href="login.html" class="nav-link">로그인</a>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="register-page">
+      <h1>회원가입</h1>
+      <form name="login-form" class="login-form">
+        <input id="id" name="id" type="text" placeholder="ID" />
+
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="password"
+        />
+        <input id="name" name="name" type="text" placeholder="name" />
+        <input id="email" name="email" type="text" placeholder="email" />
+        <input id="age" name="age" type="number" placeholder="age" />
+        <button onclick="register()" type="button">회원가입</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

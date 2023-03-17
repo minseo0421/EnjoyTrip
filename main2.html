@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/main2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  </head>
+  <body style="overflow-x: hidden">
+    <header>
+      <nav>
+        <div class="nav-top">
+          <div class="header_nav_home">
+            <div class="logo-crop">
+              <a href="main2.html">
+                <img
+                  id="logo"
+                  class="logo"
+                  src="Img/logo_static.png"
+                  alt=""
+                  data-animated="Img/logo_animated.gif"
+                  data-static="Img/logo_static.png"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="header_nav_menu">
+            <div class="header_nav_menuitem">
+              <a href="login.html" class="nav-link">로그인</a>
+            </div>
+            <div class="header_nav_menuitem">
+              <a href="#" class="nav-link" onclick="logout()">로그아웃</a>
+            </div>
+            <div class="header_nav_menuitem">
+              <a href="register.html" class="nav-link">회원가입</a>
+            </div>
+            <div class="header_nav_menuitem">
+              <a href="#" class="nav-link">마이페이지</a>
+            </div>
+            <div class="header_nav_menuitem">
+              <a href="#" class="nav-link">관리자</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bottom">
+          <div class="nav-bottom-menu">
+            <div class="nav-bottom-menuitem">
+              <a href="map.html" class="nav-link">전국 지도🌏</a>
+            </div>
+            <div class="nav-bottom-menuitem">
+              <a href="plan.html" class="nav-link">여행 계획🌅</a>
+            </div>
+            <div class="nav-bottom-menuitem">
+              <a href="register.html" class="nav-link">행사🎈</a>
+            </div>
+            <div class="nav-bottom-menuitem">
+              <a href="#" class="nav-link">숙박💒</a>
+            </div>
+            <div class="nav-bottom-menuitem">
+              <a href="#" class="nav-link">게시판🎫</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1>전국 핫플🚕</h1>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <a href="region.html"><img src="Img/seoul.png" /></a>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Daejeon</div>
+            <img src="Img/daejeon.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Busan</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Gwangju</div>
+            <img src="Img/gwang.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+          <div class="swiper-slide">
+            <div class="main-text">Seoul</div>
+            <img src="Img/busan.png" />
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+        <div class="swiper-button-prev"></div>
+        <!-- 이전 버튼 -->
+
+        <!-- 페이징 -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="side">
+        <h1>나만 몰랐던 축제 정보✨</h1>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <a href="region.html">
+              <img src="Img/dog.png" style="width: 100%"
+            /></a>
+            <div class="side-text">반려동물 동반 가능 숙소 보러가기!</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="Img/daejeon.png" style="width: 100%" />
+            <div class="side-text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="Img/busan.png" style="width: 100%" />
+            <div class="side-text">Caption Three</div>
+          </div>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li><a class="" href="#">개인정보처리방침</a></li>
+        <li><a class="" href="#">이용약관</a></li>
+        <li><a class="" href="#">오시는길</a></li>
+        <li>&copy; SSAFY Corp.</li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
