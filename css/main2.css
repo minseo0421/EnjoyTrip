@@ -232,16 +232,17 @@ a {
 }
 
 .slideshow-container {
-  /* width: 1200px; */
   display: flex;
-  flex-direction: row;
   justify-content: center;
-
+  /* height: 400px; */
   /* border: 1px solid; */
 }
 .side img {
-  width: 1500px !important;
-  height: 400px;
+  /* width: 1100px !important; */
+  height: 500px;
+  width: 1200px !important;
+  display: flex;
+  justify-content: center;
   box-shadow: 0 0 5px #555;
 }
 .side-text {
@@ -352,17 +353,15 @@ a {
   height: 100px;
   border-radius: 3px;
   box-shadow: 0 0 5px #555;
-
 }
 #btn-search {
   width: 30px;
   height: 30px;
 }
 footer {
-  clear: both;
-  margin: 10px 0 0 190px;
+  display: flex;
+  justify-content: center;
   padding: 10px;
-  max-width: 1500px;
   height: 70px;
   box-shadow: 0px -11px 8px -10px #80c3f5;
 }
