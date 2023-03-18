@@ -1,5 +1,5 @@
 // index page 로딩 시 검색 지역 설정
-let serviceKey = "1Zj0g4RCe0OMCCHUKnlXXA0EVxV6FQjiHY55AT1SbFg1SS4zVIx%2B8WB5aJnkD%2Fle3LJhaPhNe1QDN9o%2FU2JbSg%3D%3D";
+let serviceKey = "쭈녕키";
 let areaUrl = `https://apis.data.go.kr/B551011/KorService1/areaCode1?serviceKey=${serviceKey}&numOfRows=20&pageNo=1&MobileOS=ETC&MobileApp=AppTest&_type=json`;
 
 fetch(areaUrl)
